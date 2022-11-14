@@ -15,6 +15,9 @@ Uvicorn 0.19.0
 ``` source venv/Scripts/activate ``` 
 - Установите зависимости из файла requirements.txt:   
 ``` pip install -r requirements.txt ```
+- Создайте в папке FastAPI_budget файл .env и пропишите в нем:   
+JWT_SECRET=<ваш_набор_символов>   
+пример: JWT_SECRET=^JSDH7kjsd*kasldl
 - Для запуска сервера выполните команду:   
 ``` python -m budget ``` 
 
